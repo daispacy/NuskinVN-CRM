@@ -32,6 +32,9 @@
 		237138241F7007DD00046FFF /* UIImageViewAligned.m in Sources */ = {isa = PBXBuildFile; fileRef = 237138211F7007DD00046FFF /* UIImageViewAligned.m */; };
 		2371382A1F700CF900046FFF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2371382C1F700CF900046FFF /* Localizable.strings */; };
 		237138311F700E1400046FFF /* AppCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2371382F1F700E1400046FFF /* AppCoreData.m */; };
+		237138341F700E7800046FFF /* AppTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 237138331F700E7800046FFF /* AppTheme.m */; };
+		2371383B1F701E2F00046FFF /* AuthenticView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2371383A1F701E2F00046FFF /* AuthenticView.m */; };
+		2371383D1F701E3F00046FFF /* AuthenticView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2371383C1F701E3F00046FFF /* AuthenticView.xib */; };
 		3FC627489BA6D1CB28C7913B /* libPods-NuskinVN CRM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C3D53979F0E8739683EAAD /* libPods-NuskinVN CRM.a */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +88,12 @@
 		2371382D1F700CFB00046FFF /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2371382F1F700E1400046FFF /* AppCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppCoreData.m; sourceTree = "<group>"; };
 		237138301F700E1400046FFF /* AppCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCoreData.h; sourceTree = "<group>"; };
+		237138321F700E7800046FFF /* AppTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppTheme.h; sourceTree = "<group>"; };
+		237138331F700E7800046FFF /* AppTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppTheme.m; sourceTree = "<group>"; };
+		237138361F70114800046FFF /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		237138391F701E2F00046FFF /* AuthenticView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthenticView.h; sourceTree = "<group>"; };
+		2371383A1F701E2F00046FFF /* AuthenticView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthenticView.m; sourceTree = "<group>"; };
+		2371383C1F701E3F00046FFF /* AuthenticView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthenticView.xib; sourceTree = "<group>"; };
 		263DAC411858872F20CB9241 /* Pods-NuskinVN CRM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NuskinVN CRM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NuskinVN CRM/Pods-NuskinVN CRM.debug.xcconfig"; sourceTree = "<group>"; };
 		F4C3D53979F0E8739683EAAD /* libPods-NuskinVN CRM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NuskinVN CRM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,6 +141,7 @@
 			children = (
 				2364A7CC1F6FFC5000F6AA9E /* Theme */,
 				2364A7C11F6FFBBF00F6AA9E /* Libraries */,
+				237138371F7015C400046FFF /* Objects */,
 				2364A7C01F6FFB6000F6AA9E /* Services */,
 				2364A7BF1F6FFB5600F6AA9E /* Categories */,
 				2364A7BE1F6FFB4500F6AA9E /* Components */,
@@ -145,6 +155,7 @@
 				232AAFCE1F6FF7DA00CFAEB7 /* main.m */,
 				232AAFC51F6FF7DA00CFAEB7 /* NuskinVN_CRM.xcdatamodeld */,
 				2371382C1F700CF900046FFF /* Localizable.strings */,
+				237138361F70114800046FFF /* Constant.h */,
 			);
 			path = "NuskinVN CRM";
 			sourceTree = "<group>";
@@ -161,6 +172,7 @@
 		2364A7BD1F6FFB3E00F6AA9E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				237138381F701DD100046FFF /* Authentic */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,6 +238,8 @@
 		2364A7CC1F6FFC5000F6AA9E /* Theme */ = {
 			isa = PBXGroup;
 			children = (
+				237138321F700E7800046FFF /* AppTheme.h */,
+				237138331F700E7800046FFF /* AppTheme.m */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -331,6 +345,23 @@
 			path = AppCoreData;
 			sourceTree = "<group>";
 		};
+		237138371F7015C400046FFF /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		237138381F701DD100046FFF /* Authentic */ = {
+			isa = PBXGroup;
+			children = (
+				237138391F701E2F00046FFF /* AuthenticView.h */,
+				2371383A1F701E2F00046FFF /* AuthenticView.m */,
+				2371383C1F701E3F00046FFF /* AuthenticView.xib */,
+			);
+			path = Authentic;
+			sourceTree = "<group>";
+		};
 		2501145C76FFBC552F8F9A9E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -405,6 +436,7 @@
 				2364A7E61F70013E00F6AA9E /* README in Resources */,
 				2371382A1F700CF900046FFF /* Localizable.strings in Resources */,
 				232AAFC91F6FF7DA00CFAEB7 /* Assets.xcassets in Resources */,
+				2371383D1F701E3F00046FFF /* AuthenticView.xib in Resources */,
 				232AAFC41F6FF7DA00CFAEB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,10 +512,12 @@
 				2364A7F91F7002E700F6AA9E /* NSObject+Wrapper.m in Sources */,
 				2364A7CF1F6FFC9D00F6AA9E /* SyncService.m in Sources */,
 				2364A7CA1F6FFC2D00F6AA9E /* AFHTTPRequestOperationManager.m in Sources */,
+				237138341F700E7800046FFF /* AppTheme.m in Sources */,
 				2364A7FA1F7002E700F6AA9E /* NSString+Wrapper.m in Sources */,
 				2364A7F81F7002E700F6AA9E /* NSTimer+Wrapper.m in Sources */,
 				2364A7D21F6FFCB100F6AA9E /* LocalService.m in Sources */,
 				2364A7E71F70013E00F6AA9E /* SQLiteManager.m in Sources */,
+				2371383B1F701E2F00046FFF /* AuthenticView.m in Sources */,
 				2364A7E81F70013E00F6AA9E /* SQLiteService.m in Sources */,
 				232AAFCF1F6FF7DA00CFAEB7 /* main.m in Sources */,
 				232AAFC71F6FF7DA00CFAEB7 /* NuskinVN_CRM.xcdatamodeld in Sources */,

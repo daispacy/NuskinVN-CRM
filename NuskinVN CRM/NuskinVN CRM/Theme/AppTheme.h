@@ -1,5 +1,5 @@
 //
-//  MainService.h
+//  AppTheme.h
 //  NuskinVN CRM
 //
 //  Created by Dai Pham on 9/18/17.
@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-@class MainService;
+@class AppTheme;
 
-@protocol MainServiceProtocol
+@interface AppTheme : NSObject
 
-@end
++ (AppTheme*) currentTheme;
 
-@interface MainService : NSObject
++ (AppTheme*) colorBackground;
 
 @end
