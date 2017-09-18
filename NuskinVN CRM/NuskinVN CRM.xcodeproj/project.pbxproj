@@ -30,6 +30,8 @@
 		237138221F7007DD00046FFF /* ImageCacheList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2371381A1F7007DD00046FFF /* ImageCacheList.m */; };
 		237138231F7007DD00046FFF /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2371381E1F7007DD00046FFF /* UIImage+Resize.m */; };
 		237138241F7007DD00046FFF /* UIImageViewAligned.m in Sources */ = {isa = PBXBuildFile; fileRef = 237138211F7007DD00046FFF /* UIImageViewAligned.m */; };
+		2371382A1F700CF900046FFF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2371382C1F700CF900046FFF /* Localizable.strings */; };
+		237138311F700E1400046FFF /* AppCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2371382F1F700E1400046FFF /* AppCoreData.m */; };
 		3FC627489BA6D1CB28C7913B /* libPods-NuskinVN CRM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C3D53979F0E8739683EAAD /* libPods-NuskinVN CRM.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +80,11 @@
 		2371381E1F7007DD00046FFF /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		237138201F7007DD00046FFF /* UIImageViewAligned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageViewAligned.h; sourceTree = "<group>"; };
 		237138211F7007DD00046FFF /* UIImageViewAligned.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewAligned.m; sourceTree = "<group>"; };
+		237138271F700C9200046FFF /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
+		2371382B1F700CF900046FFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2371382D1F700CFB00046FFF /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2371382F1F700E1400046FFF /* AppCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppCoreData.m; sourceTree = "<group>"; };
+		237138301F700E1400046FFF /* AppCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCoreData.h; sourceTree = "<group>"; };
 		263DAC411858872F20CB9241 /* Pods-NuskinVN CRM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NuskinVN CRM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NuskinVN CRM/Pods-NuskinVN CRM.debug.xcconfig"; sourceTree = "<group>"; };
 		F4C3D53979F0E8739683EAAD /* libPods-NuskinVN CRM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NuskinVN CRM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -137,6 +144,7 @@
 				232AAFCD1F6FF7DA00CFAEB7 /* Info.plist */,
 				232AAFCE1F6FF7DA00CFAEB7 /* main.m */,
 				232AAFC51F6FF7DA00CFAEB7 /* NuskinVN_CRM.xcdatamodeld */,
+				2371382C1F700CF900046FFF /* Localizable.strings */,
 			);
 			path = "NuskinVN CRM";
 			sourceTree = "<group>";
@@ -187,6 +195,7 @@
 		2364A7C11F6FFBBF00F6AA9E /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				2371382E1F700E1400046FFF /* AppCoreData */,
 				237138191F7007DD00046FFF /* ImageCacheList */,
 				2371381C1F7007DD00046FFF /* UIImage+Resize */,
 				2371381F1F7007DD00046FFF /* UIImageViewAligned */,
@@ -313,6 +322,15 @@
 			path = UIImageViewAligned;
 			sourceTree = "<group>";
 		};
+		2371382E1F700E1400046FFF /* AppCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2371382F1F700E1400046FFF /* AppCoreData.m */,
+				237138301F700E1400046FFF /* AppCoreData.h */,
+			);
+			path = AppCoreData;
+			sourceTree = "<group>";
+		};
 		2501145C76FFBC552F8F9A9E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -367,6 +385,7 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = 232AAFB01F6FF7DA00CFAEB7;
 			productRefGroup = 232AAFBA1F6FF7DA00CFAEB7 /* Products */;
@@ -384,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2364A7E61F70013E00F6AA9E /* README in Resources */,
+				2371382A1F700CF900046FFF /* Localizable.strings in Resources */,
 				232AAFC91F6FF7DA00CFAEB7 /* Assets.xcassets in Resources */,
 				232AAFC41F6FF7DA00CFAEB7 /* Main.storyboard in Resources */,
 			);
@@ -450,6 +470,7 @@
 				2364A7CB1F6FFC2D00F6AA9E /* AFHTTPRequestOperation.m in Sources */,
 				2364A7D51F6FFD1700F6AA9E /* MainService.m in Sources */,
 				237138221F7007DD00046FFF /* ImageCacheList.m in Sources */,
+				237138311F700E1400046FFF /* AppCoreData.m in Sources */,
 				2364A7C91F6FFC2D00F6AA9E /* AFURLConnectionOperation.m in Sources */,
 				2364A7FE1F7004D400F6AA9E /* LibUtil.m in Sources */,
 				237138231F7007DD00046FFF /* UIImage+Resize.m in Sources */,
@@ -477,8 +498,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				232AAFC31F6FF7DA00CFAEB7 /* Base */,
+				237138271F700C9200046FFF /* vi */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2371382C1F700CF900046FFF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2371382B1F700CF900046FFF /* en */,
+				2371382D1F700CFB00046FFF /* vi */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -488,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -543,6 +575,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
