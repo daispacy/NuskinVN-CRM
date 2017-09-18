@@ -12,6 +12,24 @@
 		232AAFC71F6FF7DA00CFAEB7 /* NuskinVN_CRM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 232AAFC51F6FF7DA00CFAEB7 /* NuskinVN_CRM.xcdatamodeld */; };
 		232AAFC91F6FF7DA00CFAEB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232AAFC81F6FF7DA00CFAEB7 /* Assets.xcassets */; };
 		232AAFCF1F6FF7DA00CFAEB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 232AAFCE1F6FF7DA00CFAEB7 /* main.m */; };
+		2364A7C91F6FFC2D00F6AA9E /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A7C61F6FFC2D00F6AA9E /* AFURLConnectionOperation.m */; };
+		2364A7CA1F6FFC2D00F6AA9E /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A7C71F6FFC2D00F6AA9E /* AFHTTPRequestOperationManager.m */; };
+		2364A7CB1F6FFC2D00F6AA9E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A7C81F6FFC2D00F6AA9E /* AFHTTPRequestOperation.m */; };
+		2364A7CF1F6FFC9D00F6AA9E /* SyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A7CD1F6FFC9D00F6AA9E /* SyncService.m */; };
+		2364A7D21F6FFCB100F6AA9E /* LocalService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A7D11F6FFCB100F6AA9E /* LocalService.m */; };
+		2364A7D51F6FFD1700F6AA9E /* MainService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A7D41F6FFD1700F6AA9E /* MainService.m */; };
+		2364A7D81F6FFD5000F6AA9E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A7D71F6FFD5000F6AA9E /* RootViewController.m */; };
+		2364A7E61F70013E00F6AA9E /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2364A7DD1F70013E00F6AA9E /* README */; };
+		2364A7E71F70013E00F6AA9E /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A7DE1F70013E00F6AA9E /* SQLiteManager.m */; };
+		2364A7E81F70013E00F6AA9E /* SQLiteService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A7DF1F70013E00F6AA9E /* SQLiteService.m */; };
+		2364A7F71F7002E700F6AA9E /* NSData+Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A7EC1F7002E700F6AA9E /* NSData+Wrapper.m */; };
+		2364A7F81F7002E700F6AA9E /* NSTimer+Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A7F01F7002E700F6AA9E /* NSTimer+Wrapper.m */; };
+		2364A7F91F7002E700F6AA9E /* NSObject+Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A7F21F7002E700F6AA9E /* NSObject+Wrapper.m */; };
+		2364A7FA1F7002E700F6AA9E /* NSString+Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A7F61F7002E700F6AA9E /* NSString+Wrapper.m */; };
+		2364A7FE1F7004D400F6AA9E /* LibUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A7FC1F7004D300F6AA9E /* LibUtil.m */; };
+		237138221F7007DD00046FFF /* ImageCacheList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2371381A1F7007DD00046FFF /* ImageCacheList.m */; };
+		237138231F7007DD00046FFF /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2371381E1F7007DD00046FFF /* UIImage+Resize.m */; };
+		237138241F7007DD00046FFF /* UIImageViewAligned.m in Sources */ = {isa = PBXBuildFile; fileRef = 237138211F7007DD00046FFF /* UIImageViewAligned.m */; };
 		3FC627489BA6D1CB28C7913B /* libPods-NuskinVN CRM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C3D53979F0E8739683EAAD /* libPods-NuskinVN CRM.a */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +43,41 @@
 		232AAFC81F6FF7DA00CFAEB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		232AAFCD1F6FF7DA00CFAEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		232AAFCE1F6FF7DA00CFAEB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2364A7C31F6FFC2D00F6AA9E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		2364A7C41F6FFC2D00F6AA9E /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		2364A7C51F6FFC2D00F6AA9E /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		2364A7C61F6FFC2D00F6AA9E /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		2364A7C71F6FFC2D00F6AA9E /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		2364A7C81F6FFC2D00F6AA9E /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		2364A7CD1F6FFC9D00F6AA9E /* SyncService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncService.m; sourceTree = "<group>"; };
+		2364A7CE1F6FFC9D00F6AA9E /* SyncService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncService.h; sourceTree = "<group>"; };
+		2364A7D01F6FFCB100F6AA9E /* LocalService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalService.h; sourceTree = "<group>"; };
+		2364A7D11F6FFCB100F6AA9E /* LocalService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalService.m; sourceTree = "<group>"; };
+		2364A7D31F6FFD1700F6AA9E /* MainService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainService.h; sourceTree = "<group>"; };
+		2364A7D41F6FFD1700F6AA9E /* MainService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainService.m; sourceTree = "<group>"; };
+		2364A7D61F6FFD5000F6AA9E /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2364A7D71F6FFD5000F6AA9E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2364A7DA1F70013E00F6AA9E /* SQLiteService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteService.h; sourceTree = "<group>"; };
+		2364A7DC1F70013E00F6AA9E /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
+		2364A7DD1F70013E00F6AA9E /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		2364A7DE1F70013E00F6AA9E /* SQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteManager.m; sourceTree = "<group>"; };
+		2364A7DF1F70013E00F6AA9E /* SQLiteService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteService.m; sourceTree = "<group>"; };
+		2364A7EC1F7002E700F6AA9E /* NSData+Wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Wrapper.m"; sourceTree = "<group>"; };
+		2364A7ED1F7002E700F6AA9E /* NSData+Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Wrapper.h"; sourceTree = "<group>"; };
+		2364A7EF1F7002E700F6AA9E /* NSTimer+Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Wrapper.h"; sourceTree = "<group>"; };
+		2364A7F01F7002E700F6AA9E /* NSTimer+Wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Wrapper.m"; sourceTree = "<group>"; };
+		2364A7F21F7002E700F6AA9E /* NSObject+Wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Wrapper.m"; sourceTree = "<group>"; };
+		2364A7F31F7002E700F6AA9E /* NSObject+Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Wrapper.h"; sourceTree = "<group>"; };
+		2364A7F51F7002E700F6AA9E /* NSString+Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Wrapper.h"; sourceTree = "<group>"; };
+		2364A7F61F7002E700F6AA9E /* NSString+Wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Wrapper.m"; sourceTree = "<group>"; };
+		2364A7FC1F7004D300F6AA9E /* LibUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibUtil.m; sourceTree = "<group>"; };
+		2364A7FD1F7004D300F6AA9E /* LibUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibUtil.h; sourceTree = "<group>"; };
+		2371381A1F7007DD00046FFF /* ImageCacheList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCacheList.m; sourceTree = "<group>"; };
+		2371381B1F7007DD00046FFF /* ImageCacheList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCacheList.h; sourceTree = "<group>"; };
+		2371381D1F7007DD00046FFF /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		2371381E1F7007DD00046FFF /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		237138201F7007DD00046FFF /* UIImageViewAligned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageViewAligned.h; sourceTree = "<group>"; };
+		237138211F7007DD00046FFF /* UIImageViewAligned.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewAligned.m; sourceTree = "<group>"; };
 		263DAC411858872F20CB9241 /* Pods-NuskinVN CRM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NuskinVN CRM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NuskinVN CRM/Pods-NuskinVN CRM.debug.xcconfig"; sourceTree = "<group>"; };
 		F4C3D53979F0E8739683EAAD /* libPods-NuskinVN CRM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NuskinVN CRM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -70,6 +123,8 @@
 		232AAFBB1F6FF7DA00CFAEB7 /* NuskinVN CRM */ = {
 			isa = PBXGroup;
 			children = (
+				2364A7CC1F6FFC5000F6AA9E /* Theme */,
+				2364A7C11F6FFBBF00F6AA9E /* Libraries */,
 				2364A7C01F6FFB6000F6AA9E /* Services */,
 				2364A7BF1F6FFB5600F6AA9E /* Categories */,
 				2364A7BE1F6FFB4500F6AA9E /* Components */,
@@ -89,6 +144,8 @@
 		2364A7BC1F6FFB2800F6AA9E /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				2364A7D61F6FFD5000F6AA9E /* RootViewController.h */,
+				2364A7D71F6FFD5000F6AA9E /* RootViewController.m */,
 			);
 			path = Viewcontrollers;
 			sourceTree = "<group>";
@@ -117,8 +174,143 @@
 		2364A7C01F6FFB6000F6AA9E /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				2364A7CE1F6FFC9D00F6AA9E /* SyncService.h */,
+				2364A7CD1F6FFC9D00F6AA9E /* SyncService.m */,
+				2364A7D01F6FFCB100F6AA9E /* LocalService.h */,
+				2364A7D11F6FFCB100F6AA9E /* LocalService.m */,
+				2364A7D31F6FFD1700F6AA9E /* MainService.h */,
+				2364A7D41F6FFD1700F6AA9E /* MainService.m */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		2364A7C11F6FFBBF00F6AA9E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				237138191F7007DD00046FFF /* ImageCacheList */,
+				2371381C1F7007DD00046FFF /* UIImage+Resize */,
+				2371381F1F7007DD00046FFF /* UIImageViewAligned */,
+				2364A7FB1F7004D300F6AA9E /* LibUtil */,
+				2364A7EB1F7002E600F6AA9E /* NSData */,
+				2364A7F11F7002E700F6AA9E /* NSObject */,
+				2364A7EE1F7002E700F6AA9E /* NSTimer */,
+				2364A7F41F7002E700F6AA9E /* String */,
+				2364A7D91F70013E00F6AA9E /* SQLite */,
+				2364A7C21F6FFC2D00F6AA9E /* AFNetworkingSessionManager */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		2364A7C21F6FFC2D00F6AA9E /* AFNetworkingSessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				2364A7C31F6FFC2D00F6AA9E /* AFHTTPRequestOperation.h */,
+				2364A7C41F6FFC2D00F6AA9E /* AFHTTPRequestOperationManager.h */,
+				2364A7C51F6FFC2D00F6AA9E /* AFURLConnectionOperation.h */,
+				2364A7C61F6FFC2D00F6AA9E /* AFURLConnectionOperation.m */,
+				2364A7C71F6FFC2D00F6AA9E /* AFHTTPRequestOperationManager.m */,
+				2364A7C81F6FFC2D00F6AA9E /* AFHTTPRequestOperation.m */,
+			);
+			path = AFNetworkingSessionManager;
+			sourceTree = "<group>";
+		};
+		2364A7CC1F6FFC5000F6AA9E /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		2364A7D91F70013E00F6AA9E /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				2364A7DB1F70013E00F6AA9E /* Externals */,
+				2364A7DA1F70013E00F6AA9E /* SQLiteService.h */,
+				2364A7DF1F70013E00F6AA9E /* SQLiteService.m */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		2364A7DB1F70013E00F6AA9E /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				2364A7DC1F70013E00F6AA9E /* SQLiteManager.h */,
+				2364A7DD1F70013E00F6AA9E /* README */,
+				2364A7DE1F70013E00F6AA9E /* SQLiteManager.m */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		2364A7EB1F7002E600F6AA9E /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				2364A7EC1F7002E700F6AA9E /* NSData+Wrapper.m */,
+				2364A7ED1F7002E700F6AA9E /* NSData+Wrapper.h */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		2364A7EE1F7002E700F6AA9E /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				2364A7EF1F7002E700F6AA9E /* NSTimer+Wrapper.h */,
+				2364A7F01F7002E700F6AA9E /* NSTimer+Wrapper.m */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		2364A7F11F7002E700F6AA9E /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				2364A7F21F7002E700F6AA9E /* NSObject+Wrapper.m */,
+				2364A7F31F7002E700F6AA9E /* NSObject+Wrapper.h */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		2364A7F41F7002E700F6AA9E /* String */ = {
+			isa = PBXGroup;
+			children = (
+				2364A7F51F7002E700F6AA9E /* NSString+Wrapper.h */,
+				2364A7F61F7002E700F6AA9E /* NSString+Wrapper.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		2364A7FB1F7004D300F6AA9E /* LibUtil */ = {
+			isa = PBXGroup;
+			children = (
+				2364A7FC1F7004D300F6AA9E /* LibUtil.m */,
+				2364A7FD1F7004D300F6AA9E /* LibUtil.h */,
+			);
+			path = LibUtil;
+			sourceTree = "<group>";
+		};
+		237138191F7007DD00046FFF /* ImageCacheList */ = {
+			isa = PBXGroup;
+			children = (
+				2371381A1F7007DD00046FFF /* ImageCacheList.m */,
+				2371381B1F7007DD00046FFF /* ImageCacheList.h */,
+			);
+			path = ImageCacheList;
+			sourceTree = "<group>";
+		};
+		2371381C1F7007DD00046FFF /* UIImage+Resize */ = {
+			isa = PBXGroup;
+			children = (
+				2371381D1F7007DD00046FFF /* UIImage+Resize.h */,
+				2371381E1F7007DD00046FFF /* UIImage+Resize.m */,
+			);
+			path = "UIImage+Resize";
+			sourceTree = "<group>";
+		};
+		2371381F1F7007DD00046FFF /* UIImageViewAligned */ = {
+			isa = PBXGroup;
+			children = (
+				237138201F7007DD00046FFF /* UIImageViewAligned.h */,
+				237138211F7007DD00046FFF /* UIImageViewAligned.m */,
+			);
+			path = UIImageViewAligned;
 			sourceTree = "<group>";
 		};
 		2501145C76FFBC552F8F9A9E /* Pods */ = {
@@ -160,7 +352,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "Dai Pham";
+				ORGANIZATIONNAME = Derasoft;
 				TargetAttributes = {
 					232AAFB81F6FF7DA00CFAEB7 = {
 						CreatedOnToolsVersion = 9.0;
@@ -191,6 +383,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2364A7E61F70013E00F6AA9E /* README in Resources */,
 				232AAFC91F6FF7DA00CFAEB7 /* Assets.xcassets in Resources */,
 				232AAFC41F6FF7DA00CFAEB7 /* Main.storyboard in Resources */,
 			);
@@ -254,9 +447,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2364A7CB1F6FFC2D00F6AA9E /* AFHTTPRequestOperation.m in Sources */,
+				2364A7D51F6FFD1700F6AA9E /* MainService.m in Sources */,
+				237138221F7007DD00046FFF /* ImageCacheList.m in Sources */,
+				2364A7C91F6FFC2D00F6AA9E /* AFURLConnectionOperation.m in Sources */,
+				2364A7FE1F7004D400F6AA9E /* LibUtil.m in Sources */,
+				237138231F7007DD00046FFF /* UIImage+Resize.m in Sources */,
 				232AAFBE1F6FF7DA00CFAEB7 /* AppDelegate.m in Sources */,
+				2364A7F71F7002E700F6AA9E /* NSData+Wrapper.m in Sources */,
+				2364A7D81F6FFD5000F6AA9E /* RootViewController.m in Sources */,
+				2364A7F91F7002E700F6AA9E /* NSObject+Wrapper.m in Sources */,
+				2364A7CF1F6FFC9D00F6AA9E /* SyncService.m in Sources */,
+				2364A7CA1F6FFC2D00F6AA9E /* AFHTTPRequestOperationManager.m in Sources */,
+				2364A7FA1F7002E700F6AA9E /* NSString+Wrapper.m in Sources */,
+				2364A7F81F7002E700F6AA9E /* NSTimer+Wrapper.m in Sources */,
+				2364A7D21F6FFCB100F6AA9E /* LocalService.m in Sources */,
+				2364A7E71F70013E00F6AA9E /* SQLiteManager.m in Sources */,
+				2364A7E81F70013E00F6AA9E /* SQLiteService.m in Sources */,
 				232AAFCF1F6FF7DA00CFAEB7 /* main.m in Sources */,
 				232AAFC71F6FF7DA00CFAEB7 /* NuskinVN_CRM.xcdatamodeld in Sources */,
+				237138241F7007DD00046FFF /* UIImageViewAligned.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
