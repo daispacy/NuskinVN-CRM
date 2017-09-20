@@ -50,18 +50,22 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gaf-qh-7RC" userLabel="vwRemember">
                             <rect key="frame" x="0.0" y="90" width="335" height="50"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6uq-cT-9hD">
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6uq-cT-9hD">
                                     <rect key="frame" x="0.0" y="10" width="335" height="40"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="urS-LU-Ctp" userLabel="checkBox">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="urS-LU-Ctp" userLabel="checkBox">
                                             <rect key="frame" x="0.0" y="0.0" width="30" height="40"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" priority="250" constant="30" id="Diw-U7-3Yj"/>
                                                 <constraint firstAttribute="width" constant="30" id="eiX-cX-WiR"/>
                                             </constraints>
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal">
+                                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7Y-Ne-gvi" userLabel="rememer">
-                                            <rect key="frame" x="50" y="0.0" width="285" height="40"/>
+                                            <rect key="frame" x="40" y="0.0" width="295" height="40"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>

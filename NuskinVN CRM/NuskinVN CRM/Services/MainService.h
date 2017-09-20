@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 @class MainService;
 
-@protocol MainServiceProtocol
+@protocol MainServiceDelegate
 
 @end
 
 @interface MainService : NSObject
-
+- (id) initWithDelegate:(id<MainServiceDelegate>) delegate;
 @end

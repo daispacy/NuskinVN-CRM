@@ -13,5 +13,5 @@
 #pragma mark MAIN
 - (NSString*) escapeQuotes;
 - (NSString*) unescapeQuotes;
-
+-(BOOL)isValidEmail;
 @end

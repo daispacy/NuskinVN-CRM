@@ -15,6 +15,9 @@
 // script localizable -----------
 #define local(__key__)                 NSLocalizedString(__key__, nil)
 
+// log
+#define log(__var__,__func__)          printf("%s",[[NSString stringWithFormat:@"\n%s %@\n",__func__==TRUE?__PRETTY_FUNCTION__:[@"" UTF8String],__var__] UTF8String]);
+
 // Server ---------------------
 
 

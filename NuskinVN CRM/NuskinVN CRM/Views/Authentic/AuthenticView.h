@@ -17,7 +17,7 @@ typedef enum : NSUInteger {
 
 @protocol AuthenticViewDelegate<NSObject>
 
-- (void) AuthenticView:(AuthenticView*) view didInvolkeActionWithObject:(NSDictionary*)object;
+- (void) AuthenticView:(AuthenticView*) view didInvolkeActionWithObject:(NSDictionary*)object andType:(AuthenticViewType)type;
 
 @end
 

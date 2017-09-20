@@ -8,5 +8,12 @@
 
 "CFBundleDisplayName" = "NskinVN CRM";
 
-"sign_in" = "sign in";
-"sign_out" = "sign out";
+"Sign_In"               = "Sign In";
+"Sign_Out"              = "Sign Out";
+"Login"                 = "Login";
+"Logout"                = "Logout";
+"placeholder_email"     = "Email";
+"placeholder_password"  = "Password";
+"placeholder_vnid"      = "xxxxxxxxx";
+"remember_me"           = "Remember me";
+"reset_paswword"        = "Reset Password";

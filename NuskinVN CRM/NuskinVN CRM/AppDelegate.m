@@ -6,6 +6,9 @@
 //  Copyright © 2017 Dai Pham. All rights reserved.
 //
 
+// controllers
+#import "AuthenticControlller.h"
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -18,8 +21,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
+    UIWindow* window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window = window;
+    AuthenticControlller * root = [[AuthenticControlller alloc] initWithAuthenticType:AUTH_RESETPASSWORD];
+    self.window.rootViewController = root;
     [self.window makeKeyAndVisible];
     
     return YES;
